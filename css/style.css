@@ -1,0 +1,84 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image:url('../images/corrugation.png');
+	font-family: 'Lato', sans-serif;
+}
+#container{
+	background-image:url('../images/dark_Tire.png');
+	
+	width: 60%;
+	height: 400px;;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.shadow{
+	-moz-box-shadow:    5px 9px 9px 6px #999;
+  	-webkit-box-shadow: 5px 2px 3px 0px #999;
+  	box-shadow:         5px 9px 9px 4px #999;
+}
+#top-left{
+	width: 20%;
+	height: 30%;
+	border-right: 1px dashed white;
+	border-bottom: 1px dashed white;
+}
+#bottom-left{
+	width: 20%;
+	height: 70%;
+	border-right: 1px dashed white;
+	
+}
+.menuLink{
+	margin: 0;
+	color: #FFCC33;
+	padding-left: 16%;
+	padding-top: 8%;
+	font-size: large;
+
+}
+.menuLink:hover{
+	cursor: pointer;
+	color: #FFFF66;
+}
+#right{
+	float: right;
+	
+	width: 80%;
+	height: 100%;
+}
+#avatar{
+	float: right;
+	width: 40%;
+	height: 48%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin-top: 5px;
+	margin-right: 15px;
+}
+#title{
+	color: #FFCC33;
+	margin-left: 3%;
+
+}
+.fill{
+	color: #FFFFCC;
+	margin-left: 3%;
+}
+.fill-w{
+	color: #FFFFCC;
+	margin-left: 3%;	
+	font-size: small;
+}
+.fill-title{
+	color: #33CC33;
+	margin-left: 3%;
+	font-size: large;
+}
+a{
+	text-decoration: none;
+	color: #33CC33;
+}
